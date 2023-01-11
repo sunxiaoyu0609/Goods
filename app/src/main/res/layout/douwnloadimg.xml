@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_view"
+    tools:context=".downloadimg"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textview_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="访问外部网站" />
+
+        <ImageView
+            android:id="@+id/imagview_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_visit_web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_evaluate"
+        android:textColor="#ffffff"
+        android:text="访问web"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_download_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_evaluate"
+        android:textColor="#ffffff"
+        android:text="下载图片"/>
+
+</LinearLayout>

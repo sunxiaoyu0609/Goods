@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">小商店</string>
+    <string name="hello"><u>全部</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="cmpShow">计算机出拳:</string>
+    <string name="playerShow">玩家出拳:</string>
+    <string name="rockDes">石头</string>
+    <string name="paperDes">剪刀</string>
+    <string name="scissorsDes">布</string>
+    <string name="cmpViewDes">电脑出拳</string>
+    <string name="result">判定输赢：</string>
+    <string name="result_win">恭喜您，您赢了！</string>
+    <string name="result_lose">运气不好，再来一次！</string>
+    <string name="result_draw">再努力一点！</string>
+</resources>
